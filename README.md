@@ -23,6 +23,20 @@ A collection of Data Science practice notebooks covering various topics includin
 
 ---
 
+## ▶️ Run locally
+
+```bash
+git clone https://github.com/nada-hammamii/ds-practice-notebooks.git
+cd ds-practice-notebooks
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+jupyter lab
+```
+
+Each folder is self-contained: the notebook and the dataset it uses sit side by side, so any notebook can be opened and run on its own. Zipped image datasets (`ASL-Recognition-with-Deep-Learning/*.zip`, `Na-ve-Bees-Predict-Species-from-Images/images.zip`) are extracted by the notebook that uses them.
+
+---
+
 ## 🛠️ Technologies Used
 
 - **Python** — core language
